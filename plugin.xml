@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.saikrishna.rcp.sample2"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.saikrishna.rcp.sample2/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="com.saikrishna.rcp.sample2">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="sample"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="to-do">
+         <property
+               name="appName"
+               value="to-do">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="Sample2Product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="sample2">
+         <property
+               name="appName"
+               value="sample2">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="PID2"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="sample2">
+         <property
+               name="appName"
+               value="sample2">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
